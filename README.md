@@ -5,7 +5,7 @@ El proyecto Libft tiene como objetivo principal desarrollar una biblioteca de fu
 
 La biblioteca Libft será utilizada como una base sólida para proyectos posteriores en el programa de formación y proporcionará una serie de funciones esenciales para el manejo de cadenas de caracteres, memoria, listas enlazadas y más.
 
-#### Funciones incluidas
+### Funciones incluidas
 La biblioteca Libft contendrá las siguientes categorías principales de funciones:
 
 **Manipulación de cadenas de caracteres**: Funciones para la manipulación, búsqueda y comparación de cadenas de caracteres, así como la conversión de cadenas numéricas.
