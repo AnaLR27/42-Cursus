@@ -6,7 +6,7 @@
 #    By: alorenzo <alorenzo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 17:25:59 by alorenzo          #+#    #+#              #
-#    Updated: 2023/06/10 13:00:59 by alorenzo         ###   ########.fr        #
+#    Updated: 2023/06/13 20:26:25 by alorenzo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,6 +39,11 @@ ft_substr.c\
 ft_strjoin.c\
 ft_strtrim.c\
 ft_itoa.c\
+ft_strmapi.c\
+ft_striteri.c\
+ft_putchar_fd.c\
+ft_putstr_fd.c\
+ft_putendl_fd.c
 
 
 
