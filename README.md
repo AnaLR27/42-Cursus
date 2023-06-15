@@ -8,19 +8,19 @@ La biblioteca Libft será utilizada como una base sólida para proyectos posteri
 ### Funciones incluidas
 La biblioteca Libft contendrá las siguientes categorías principales de funciones:
 
-**Manipulación de cadenas de caracteres**: Funciones para la manipulación, búsqueda y comparación de cadenas de caracteres, así como la conversión de cadenas numéricas.
+- **Manipulación de cadenas de caracteres**: Funciones para la manipulación, búsqueda y comparación de cadenas de caracteres, así como la conversión de cadenas numéricas.
 
-**Gestión de memoria**: Funciones para la asignación y liberación de memoria, así como operaciones de copia y concatenación de memoria.
+- **Gestión de memoria**: Funciones para la asignación y liberación de memoria, así como operaciones de copia y concatenación de memoria.
 
-**Listas enlazadas**: Funciones para crear, manipular y recorrer listas enlazadas.
+- **Listas enlazadas**: Funciones para crear, manipular y recorrer listas enlazadas.
 
-**Caracteres**: Funciones para comprobar y transformar caracteres.
+- **Caracteres**: Funciones para comprobar y transformar caracteres.
 
-**Conversión**: Funciones para convertir números entre diferentes bases.
+- **Conversión**: Funciones para convertir números entre diferentes bases.
 
-**Entrada y salida**: Funciones para leer y escribir en la consola.
+- **Entrada y salida**: Funciones para leer y escribir en la consola.
 
-• [isalpha](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalpha.c)
+ [isalpha](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalpha.c)
 • [isdigit](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isdigit.c)
 • [isalnum](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalnum.c)
 • [isascii](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isascii.c)
