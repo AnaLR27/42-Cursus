@@ -6,13 +6,13 @@
 /*   By: alorenzo <alorenzo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/09 18:34:15 by alorenzo          #+#    #+#             */
-/*   Updated: 2023/06/09 19:06:58 by alorenzo         ###   ########.fr       */
+/*   Updated: 2023/06/15 14:48:05 by alorenzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(const char *s1, const char *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	unsigned int	start;
 	size_t			end;

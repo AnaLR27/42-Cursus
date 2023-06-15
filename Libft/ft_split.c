@@ -6,7 +6,7 @@
 /*   By: alorenzo <alorenzo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:56:27 by alorenzo          #+#    #+#             */
-/*   Updated: 2023/06/15 12:34:39 by alorenzo         ###   ########.fr       */
+/*   Updated: 2023/06/15 14:48:29 by alorenzo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static size_t	ft_wordcounter(char const *s, char c)
 	return (j);
 }
 
-char	**ft_split(const char *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	char	**str;
 	size_t	x;
