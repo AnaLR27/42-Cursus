@@ -6,7 +6,7 @@
 #    By: alorenzo <alorenzo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/18 17:25:59 by alorenzo          #+#    #+#              #
-#    Updated: 2023/06/15 12:33:10 by alorenzo         ###   ########.fr        #
+#    Updated: 2023/07/17 14:08:51 by alorenzo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,9 +47,13 @@ ft_putstr_fd.c\
 ft_putendl_fd.c\
 ft_putnbr_fd.c
 
-
+BONUS = ft_lstnew_bonus.c\
+ft_lstadd_front_bonus.c\
+ft_lstsize_bonus.c\
 
 OBJS = $(SRC:.c=.o)
+
+BONUS_OBJS = $(BONUS:.c=.o)
 
 FLAGS = -Wall -Wextra -Werror
 
@@ -60,16 +64,24 @@ all: $(NAME)
 $(NAME) : $(OBJS)
 	@ar rcs $(NAME) $(OBJS)
 
-$(OBJS) : $(FILES)
+$(OBJS) : $(SRC)
 	@$(CC) $(FLAGS) -c $(SRC)
+	@echo "Se ha compilado correctamente"
+
+bonus: $(BONUS_OBJS)
+	@$(CC) $(FLAGS) -c $(BONUS)
+	@ar rcs $(NAME) $(BONUS_OBJS)
+	@echo "Se ha compilado el bonus correctamente"
 
 clean: 
 	@rm -f $(OBJS)
+	@echo "Se ha hecho clean correctamente"
 
 fclean: clean
 	@rm -f $(NAME) 
+	@echo "Se ha hecho fclean correctamente"
 
 re: fclean all
 
-.PHONY: clean fclean re all
+.PHONY: clean fclean re all bonus
 

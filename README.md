@@ -20,7 +20,7 @@ La biblioteca Libft contendrá las siguientes categorías principales de funcion
 
 - **Entrada y salida**: Funciones para leer y escribir en la consola.
 
- [isalpha](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalpha.c)
+• [isalpha](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalpha.c)
 • [isdigit](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isdigit.c)
 • [isalnum](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isalnum.c)
 • [isascii](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_isascii.c)
@@ -54,3 +54,11 @@ La biblioteca Libft contendrá las siguientes categorías principales de funcion
 • [ft_putstr_fd](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_putstr_fd.c)
 • [ft_putendl_fd](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_putendl_fd.c)
 • [ft_putnbr_fd](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_putnbr_fd.c)
+
+## Bonus part
+La regla bonus cerada en el Makefile permite compilar las funciones creadas a continuación pasra manipular listas.
+
+
+• [ft_lstnew](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstnew_bonus.c)
+• [ft_lstadd_front](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstadd_front_bonus.c)
+• [ft_lstsize](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstsize_bonus.c)
