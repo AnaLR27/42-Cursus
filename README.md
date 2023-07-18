@@ -56,9 +56,23 @@ La biblioteca Libft contendrá las siguientes categorías principales de funcion
 • [ft_putnbr_fd](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_putnbr_fd.c)
 
 ## Bonus part
-La regla bonus cerada en el Makefile permite compilar las funciones creadas a continuación pasra manipular listas.
+La regla bonus cerada en el Makefile permite compilar las funciones creadas a continuación pasra manipular listas. La definición de la estructura es la siguiente:
+```
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
+```
+
 
 
 • [ft_lstnew](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstnew_bonus.c)
 • [ft_lstadd_front](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstadd_front_bonus.c)
 • [ft_lstsize](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstsize_bonus.c)
+• [ft_lstlast](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstlast_bonus.c)
+• [ft_lstadd_back](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstadd_back_bonus.c)
+• [ft_lstdelone](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstdelone_bonus.c)
+• [ft_lstclear](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstclear_bonus.c)
+• [ft_lstiter](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstiter_bonus.c)
+• [ft_lstmap](https://github.com/AnaLR27/42-Cursus/blob/main/Libft/ft_lstmap_bonus.c)
